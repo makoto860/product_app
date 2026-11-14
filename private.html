@@ -1,0 +1,54 @@
+🟥やること
+mysql@とabseilを一致させる。
+
+🟥目標
+Python
+Crud
+Pytest
+
+
+🟥productsカラム
+id
+name string
+quantity integer
+sell_datetime datetime
+caption text
+
+🟥技術
+プログラミング言語	Python
+フレームワーク	Django
+データベース	MySQL
+画面	HTML・CSS
+エディタ	VS Code
+データベース接続	mysqlclient
+
+🟥コマンド入力
+python3 -m venv venv
+
+仮想環境に入る
+source venv/bin/activate
+
+仮想環境に抜ける
+deactivate
+
+python -m pip install django
+
+django-admin startproject config .
+
+python manage.py runserver
+
+productsフォルダを作成
+
+python manage.py startapp products
+
+アプリ認識を確認
+python manage.py check
+
+MYSQLに接続
+python manage.py inspectdb products
+
+🟥コマンド入力
+git add -- . ':!private.html'
+git status
+git commit -m ''
+git push origin deve
